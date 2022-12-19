@@ -48,7 +48,7 @@
   },
   locations: {
     quagmire: {
-      1:{
+      {
         type: "torch",
         img: {
           "/quagmire/torch1.png"
@@ -58,7 +58,7 @@
           y:-482.5
         },
       },
-      2:{
+      {
         type: "dish",
         img: {
           "/quagmire/dish1.png"
@@ -68,7 +68,7 @@
           y:-368
         },
       },
-      3:{
+      {
         type: "plates",
         img: {
           "/quagmire/"
@@ -78,7 +78,7 @@
           y:-335.37
         },
       },
-      4:{
+      {
         type: "plates",
         img: {
           "/quagmire/"
@@ -88,7 +88,7 @@
           y:-441.5
         },
       },
-      4:{
+      {
         type: "orb",
         img: {
           "/quagmire/orb1-1.png",
@@ -99,7 +99,7 @@
           y:-586
         },
       },
-      5:{
+      {
         type: "chest",
         img: {
           "/quagmire/chest1.png"
@@ -109,7 +109,7 @@
           y:-378
         },
       },
-      6:{
+      {
         type: "chest",
         img: {
           "/quagmire/chest2.png"
@@ -119,7 +119,7 @@
           y:-358
         },
       },
-      7:{
+      {
         type: "buff",
         img: {
           "/quagmire/buff_anger_deepsight1.png"
@@ -129,7 +129,7 @@
           y:-285.5
         },
       },
-      8:{
+      {
         type: "buff",
         img: {
           "/quagmire/buff_anger_deepsight2.png"
@@ -139,7 +139,7 @@
           y:-489.5
         },
       },
-      9:{
+      {
         type: "buff sword",
         img: {
           "/quagmire/buff_sword.png"
@@ -149,7 +149,7 @@
           y:-593.5
         },
       },
-      10:{
+      {
         type: "qualichor",
         img: {
           "/quagmire/qualichor1.png"
@@ -159,7 +159,7 @@
           y:-379
         },
       },
-      11:{
+      {
         type: "qualichor",
         img: {
           "/quagmire/qualichor2.png"
@@ -169,7 +169,7 @@
           y:-668.5
         },
       },
-      12:{
+      {
         type: "qualichor",
         img: {
           "/quagmire/qualichor3.png"
@@ -181,7 +181,7 @@
       },
     },
     florescentCanal: {
-      1:{
+      {
         type: "plates",
         img: {
           "/florescentCanal/plates1.png"
@@ -191,7 +191,7 @@
           y:-416.3
         },
       },
-      2:{
+      {
         type: "plates",
         img: {
           "/florescentCanal/plates2.png"
@@ -201,7 +201,7 @@
           y:-344.9
         },
       },
-      3:{
+      {
         type: "plates",
         img: {
           "/florescentCanal/"
@@ -211,7 +211,7 @@
           y:-98.1
         },
       },
-      4:{
+      {
         type: "chest",
         img: {
           "/florescentCanal/chest1.png"
@@ -221,7 +221,7 @@
           y:-274.91
         },
       },
-      5:{
+      {
         type: "chest",
         img: {
           "/florescentCanal/chest2.png"
@@ -231,7 +231,7 @@
           y:-110.8
         },
       },
-      6:{
+      {
         type: "qualichor",
         img: {
           "/florescentCanal/qualichor1.png"
@@ -241,7 +241,7 @@
           y:-238.14
         },
       },
-      7:{
+      {
         type: "qualichor",
         img: {
           "/florescentCanal/qualichor2.png"
@@ -251,7 +251,7 @@
           y:-4.80
         },
       },
-      8:{
+      {
         type: "buff",
         img: {
           "/florescentCanal/buff_anger_deepsight1.png"
@@ -261,7 +261,7 @@
           y:-374.26
         },
       },
-      9:{
+      {
         type: "buff",
         img: {
           "/florescentCanal/buff_anger_deepsight2.png"
@@ -273,7 +273,7 @@
       },
     },
     miasma: {
-      1:{
+      {
         type: "torch",
         img: {
           "/florescentCanal/torch1.png"
@@ -283,7 +283,17 @@
           y:246.5
         },
       },
-      2:{
+	  {
+        type: "torch2",
+        img: {
+          "/florescentCanal/torch2.png"
+        },
+        coordinates: {
+          x:19.75,
+          y:324.25
+        },
+      },
+      {
         type: "dish",
         img: {
           "/florescentCanal/dish1.png"
@@ -293,7 +303,7 @@
           y:128.5
         },
       },
-      3:{
+      {
         type: "plates",
         img: {
           "/florescentCanal/"
@@ -303,7 +313,7 @@
           y:132.5
         },
       },
-      4:{
+      {
         type: "chest",
         img: {
           "/florescentCanal/chest1.png"
@@ -313,7 +323,7 @@
           y:347
         },
       },
-      5:{
+      {
         type: "chest",
         img: {
           "/florescentCanal/chest2.png"
@@ -323,7 +333,7 @@
           y:198
         },
       },
-      6:{
+      {
         type: "buff",
         img: {
           "/florescentCanal/buff_anger_deepsight1.png"
@@ -333,7 +343,7 @@
           y:312
         },
       },
-      7:{
+      {
         type: "buff",
         img: {
           "/florescentCanal/buff_anger_deepsight2.png"
@@ -349,7 +359,7 @@
     templeOfTheCunning: {
     },
     witchEcho: {
-      1:{
+      {
         type: "torch",
         img: {
           "/witchEcho/torch1.png"
@@ -361,7 +371,7 @@
       },
     },
     queenBailey: {
-      1:{
+      {
         type: "torch",
         img: {
           "/queenBailey/torch1.png"
@@ -373,7 +383,7 @@
       },
     },
     courtOfThorns: {
-      1:{
+      {
         type: "plates",
         img: {
           "/courtOfThorns/plates1.png"
@@ -387,7 +397,7 @@
     alluringCurtain: {
     },
     apothecary: {
-      1:{
+      {
         type: "great chest",
         img: {
           "/apothecary/great_chest1.png"
@@ -397,7 +407,7 @@
           y:-991.56
         },
       },
-      2:{
+      {
         type: "great chest",
         img: {
           "/apothecary/great_chest2.png"
