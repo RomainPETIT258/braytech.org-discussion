@@ -1,0 +1,418 @@
+{
+  types: {
+    {
+      type:"torch",
+      xp: 200,
+      description: "light all the torches to get the reward",
+    },
+    {
+      type:"dish",
+      xp: 200,
+      description: "light all the dishes to get the reward",
+    },
+    {
+      type:"plates",
+      xp: 200,
+      description: "hit all the plates in time to get the reward",
+    },
+    {
+      type:"orb",
+      xp: 200,
+      description: "hit the chest shield with multiple orbs to get the reward",
+    },
+    {
+      type:"chest",
+      xp: 20,
+      description: "Activate Deepsight and find the chest behind a structure (wall, tree, ...).",
+    },
+    {
+      type:"great chest",
+      xp: 200,
+      description: "Activate Deepsight and find the chest. Give a lot of rank points",
+    },
+    {
+      type:"buff",
+      xp: 0,
+      description: "It gives you a buff",
+    },
+    {
+      type:"buff sword",
+      xp: 0,
+      description: "It gives you a sword",
+    },
+    {
+      type:"qualichor",
+      xp: 0,
+      description: "Activate Deepsight, find and kill the boss for the qualiquor quest by following the path of green lights.",
+    },
+  },
+  locations: {
+    quagmire: {
+      1:{
+        type: "torch",
+        img: {
+          "/quagmire/torch1.png"
+        },
+        coordinates: {
+          x:-144.5,
+          y:-482.5
+        },
+      },
+      2:{
+        type: "dish",
+        img: {
+          "/quagmire/dish1.png"
+        },
+        coordinates: {
+          x:48.5,
+          y:-368
+        },
+      },
+      3:{
+        type: "plates",
+        img: {
+          "/quagmire/"
+        },
+        coordinates: {
+          x:-1.71,
+          y:-335.37
+        },
+      },
+      4:{
+        type: "plates",
+        img: {
+          "/quagmire/"
+        },
+        coordinates: {
+          x:206.5,
+          y:-441.5
+        },
+      },
+      4:{
+        type: "orb",
+        img: {
+          "/quagmire/orb1-1.png",
+          "/quagmire/orb1-2.png"
+        },
+        coordinates: {
+          x:89.5,
+          y:-586
+        },
+      },
+      5:{
+        type: "chest",
+        img: {
+          "/quagmire/chest1.png"
+        },
+        coordinates: {
+          x:-84.5,
+          y:-378
+        },
+      },
+      6:{
+        type: "chest",
+        img: {
+          "/quagmire/chest2.png"
+        },
+        coordinates: {
+          x:-179.5,
+          y:-358
+        },
+      },
+      7:{
+        type: "buff",
+        img: {
+          "/quagmire/buff_anger_deepsight1.png"
+        },
+        coordinates: {
+          x:66.5,
+          y:-285.5
+        },
+      },
+      8:{
+        type: "buff",
+        img: {
+          "/quagmire/buff_anger_deepsight2.png"
+        },
+        coordinates: {
+          x:237,
+          y:-489.5
+        },
+      },
+      9:{
+        type: "buff sword",
+        img: {
+          "/quagmire/buff_sword.png"
+        },
+        coordinates: {
+          x:72,
+          y:-593.5
+        },
+      },
+      10:{
+        type: "qualichor",
+        img: {
+          "/quagmire/qualichor1.png"
+        },
+        coordinates: {
+          x:65,
+          y:-379
+        },
+      },
+      11:{
+        type: "qualichor",
+        img: {
+          "/quagmire/qualichor2.png"
+        },
+        coordinates: {
+          x:272.5,
+          y:-668.5
+        },
+      },
+      12:{
+        type: "qualichor",
+        img: {
+          "/quagmire/qualichor3.png"
+        },
+        coordinates: {
+          x:28.5,
+          y:-284.5
+        },
+      },
+    },
+    florescentCanal: {
+      1:{
+        type: "plates",
+        img: {
+          "/florescentCanal/plates1.png"
+        },
+        coordinates: {
+          x:735.34,
+          y:-416.3
+        },
+      },
+      2:{
+        type: "plates",
+        img: {
+          "/florescentCanal/plates2.png"
+        },
+        coordinates: {
+          x:620.7,
+          y:-344.9
+        },
+      },
+      3:{
+        type: "plates",
+        img: {
+          "/florescentCanal/"
+        },
+        coordinates: {
+          x:636.3,
+          y:-98.1
+        },
+      },
+      4:{
+        type: "chest",
+        img: {
+          "/florescentCanal/chest1.png"
+        },
+        coordinates: {
+          x:608,
+          y:-274.91
+        },
+      },
+      5:{
+        type: "chest",
+        img: {
+          "/florescentCanal/chest2.png"
+        },
+        coordinates: {
+          x:719.7,
+          y:-110.8
+        },
+      },
+      6:{
+        type: "qualichor",
+        img: {
+          "/florescentCanal/qualichor1.png"
+        },
+        coordinates: {
+          x:706.34,
+          y:-238.14
+        },
+      },
+      7:{
+        type: "qualichor",
+        img: {
+          "/florescentCanal/qualichor2.png"
+        },
+        coordinates: {
+          x:745.9,
+          y:-4.80
+        },
+      },
+      8:{
+        type: "buff",
+        img: {
+          "/florescentCanal/buff_anger_deepsight1.png"
+        },
+        coordinates: {
+          x:732.51,
+          y:-374.26
+        },
+      },
+      9:{
+        type: "buff",
+        img: {
+          "/florescentCanal/buff_anger_deepsight2.png"
+        },
+        coordinates: {
+          x:582.95,
+          y:-415.98
+        },
+      },
+    },
+    miasma: {
+      1:{
+        type: "torch",
+        img: {
+          "/florescentCanal/torch1.png"
+        },
+        coordinates: {
+          x:-39,
+          y:246.5
+        },
+      },
+      2:{
+        type: "dish",
+        img: {
+          "/florescentCanal/dish1.png"
+        },
+        coordinates: {
+          x:101,
+          y:128.5
+        },
+      },
+      3:{
+        type: "plates",
+        img: {
+          "/florescentCanal/"
+        },
+        coordinates: {
+          x:193.5,
+          y:132.5
+        },
+      },
+      4:{
+        type: "chest",
+        img: {
+          "/florescentCanal/chest1.png"
+        },
+        coordinates: {
+          x:3,
+          y:347
+        },
+      },
+      5:{
+        type: "chest",
+        img: {
+          "/florescentCanal/chest2.png"
+        },
+        coordinates: {
+          x:125.5,
+          y:198
+        },
+      },
+      6:{
+        type: "buff",
+        img: {
+          "/florescentCanal/buff_anger_deepsight1.png"
+        },
+        coordinates: {
+          x:-40,
+          y:312
+        },
+      },
+      7:{
+        type: "buff",
+        img: {
+          "/florescentCanal/buff_anger_deepsight2.png"
+        },
+        coordinates: {
+          x:238.5,
+          y:142.5
+        },
+      },
+    },
+    templeOfTheWrathful: {
+    },
+    templeOfTheCunning: {
+    },
+    witchEcho: {
+      1:{
+        type: "torch",
+        img: {
+          "/witchEcho/torch1.png"
+        },
+        coordinates: {
+          x:-364.5,
+          y:504
+        },
+      },
+    },
+    queenBailey: {
+      1:{
+        type: "torch",
+        img: {
+          "/queenBailey/torch1.png"
+        },
+        coordinates: {
+          x:742,
+          y:328
+        },
+      },
+    },
+    courtOfThorns: {
+      1:{
+        type: "plates",
+        img: {
+          "/courtOfThorns/plates1.png"
+        },
+        coordinates: {
+          x:1276.6,
+          y:-137.38
+        },
+      },
+    },
+    alluringCurtain: {
+    },
+    apothecary: {
+      1:{
+        type: "great chest",
+        img: {
+          "/apothecary/great_chest1.png"
+        },
+        coordinates: {
+          x:934.39,
+          y:-991.56
+        },
+      },
+      2:{
+        type: "great chest",
+        img: {
+          "/apothecary/great_chest2.png"
+        },
+        coordinates: {
+          x:927.67,
+          y:-1105.76
+        },
+      },
+    },
+    sanctumOfTheBroodQueen: {
+    },
+    templeOfTheNavigator: {
+    },
+    discipleBog: {
+    }
+  }
+}
