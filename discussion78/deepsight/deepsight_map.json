@@ -130,6 +130,16 @@
         }
       },
       {
+        "type": "chest",
+        "img": [
+          "/quagmire/chest4.png"
+        ],
+        "coordinates": {
+          "x": 184,
+          "y": -610.5
+        }
+      },
+      {
         "type": "buff",
         "img": [
           "/quagmire/buff_anger_deepsight1.png"
