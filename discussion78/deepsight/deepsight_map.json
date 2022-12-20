@@ -373,6 +373,46 @@
           y:142.5
         },
       },
+      {
+        type: "qualichor",
+        img: {
+          "/miasma/qualichor1.png"
+        },
+        coordinates: {
+          x:0.30,
+          y:88.18
+        },
+      },
+      {
+        type: "qualichor",
+        img: {
+          "/miasma/qualichor2.png"
+        },
+        coordinates: {
+          x:54.04,
+          y:121.77
+        },
+      },
+      {
+        type: "qualichor",
+        img: {
+          "/miasma/qualichor3.png"
+        },
+        coordinates: {
+          x:37.07,
+          y:222.18
+        },
+      },
+      {
+        type: "qualichor",
+        img: {
+          "/miasma/qualichor4.png"
+        },
+        coordinates: {
+          x:-15.96,
+          y:290.06
+        },
+      },
     },
     templeOfTheWrathful: {
     },
