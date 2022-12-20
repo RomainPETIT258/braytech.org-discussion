@@ -232,6 +232,16 @@
         },
       },
       {
+        type: "chest",
+        img: {
+          "/florescentCanal/chest3.png"
+        },
+        coordinates: {
+          x:571.9,
+          y:-16.8
+        },
+      },
+      {
         type: "qualichor",
         img: {
           "/florescentCanal/qualichor1.png"
