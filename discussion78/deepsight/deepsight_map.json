@@ -344,6 +344,16 @@
         },
       },
       {
+        type: "chest",
+        img: {
+          "/miasma/chest3.png"
+        },
+        coordinates: {
+          x:49.4,
+          y:175.15
+        },
+      },
+      {
         type: "buff",
         img: {
           "/florescentCanal/buff_anger_deepsight1.png"
