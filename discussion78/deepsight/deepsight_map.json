@@ -262,6 +262,16 @@
         }
       },
       {
+        "type": "chest",
+        "img": [
+          "/florescentCanal/chest4.png"
+        ],
+        "coordinates": {
+          "x": 674,
+          "y": -177.5
+        }
+      },
+      {
         "type": "qualichor",
         "img": [
           "/florescentCanal/qualichor1.png"
@@ -299,6 +309,16 @@
         "coordinates": {
           "x": 582.95,
           "y": -415.98
+        }
+      },
+      {
+        "type": "buff",
+        "img": [
+          "/florescentCanal/buff_anger_deepsight3.png"
+        ],
+        "coordinates": {
+          "x": 600,
+          "y": -73.5
         }
       }
     ],
