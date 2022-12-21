@@ -61,7 +61,8 @@
       {
         "type": "dish",
         "img": [
-          "/quagmire/dish1.png"
+          "/quagmire/dish1.png",
+          "/quagmire/dish1-1.png"
         ],
         "coordinates": {
           "x": 48.5,
