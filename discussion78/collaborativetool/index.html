@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Collaborative map tool</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="top-bar">
+
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Map tool</li>
+
+        </ul>
+      </div>
+
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="#">Maps</a>
+            <ul class="menu">
+              <li><a href="#" class="item-map-menu" data-map="cosmodrome">Cosmodrome</a></li>
+              <li><a href="#" class="item-map-menu" data-map="dreaming_city">Dreaming City</a></li>
+              <li><a href="#" class="item-map-menu" data-map="edz">Edz</a></li>
+              <li><a href="#" class="item-map-menu" data-map="europa">Europa</a></li>
+              <li><a href="#" class="item-map-menu" data-map="moon">Moon</a></li>
+              <li><a href="#" class="item-map-menu" data-map="neomuna">Neomuna</a></li>
+              <li><a href="#" class="item-map-menu" data-map="nessus">Nessus</a></li>
+              <li><a href="#" class="item-map-menu" data-map="throne_world">Throne world</a></li>
+              <li><a href="#" class="item-map-menu" data-map="tower">Tower</a></li>
+            </ul>
+          <li id="map-name" class="menu-text"></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="map-container">
+    <img id="d2-map" src="" alt="map" usemap="#workmap" />
+    <map name="workmap">
+    </map>
+  </div>
+  <footer></footer>
+
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="js/main.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/maps.js"></script>
+
+</body>
+
+</html>

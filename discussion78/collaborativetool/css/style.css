@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.map-container {
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+}
+
+#map {
+    z-index: 1; transform: translate3d(-614px, -572px, 0px); width: 2897px; height: 2415px;
+}
+
+nav {
+    background-color: #0b2051;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.top-bar, .top-bar ul{
+    background-color: #0d1325;
+}
+
+.top-bar .menu-text{
+    color:white;
+}
+
+ul .submenu {
+    box-shadow: 0px 10px 22px -3px rgba(0,0,0,0.1);
+    border:transparent;
+}
